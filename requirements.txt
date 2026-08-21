@@ -1,3 +1,10 @@
-streamlit>=1.32
-tensorflow>=2.15
-numpy
+# Core app
+streamlit==1.38.0
+
+# Model was saved in native .keras format (Keras 3). TensorFlow 2.16+ bundles
+# Keras 3 automatically, so we don't pin keras separately -- pinning both
+# tensorflow and an exact keras version creates a dependency conflict that
+# breaks installation (e.g. on Streamlit Cloud).
+tensorflow==2.17.0
+
+numpy==1.26.4
