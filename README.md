@@ -117,6 +117,4 @@ See [`requirements.txt`](./requirements.txt). Versions are pinned rather than le
 
 ---
 
-## 📄 License
 
-Add your license of choice here.
